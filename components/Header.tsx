@@ -4,7 +4,7 @@ import NavItems from "@/components/NavItems";
 import UserDropdown from "@/components/UserDropdown";
 const Header = () => {
     return (
-        <header className="sticky top-0 header">
+        <header className="sticky top-0 header w-full">
             <div className="container header-wrapper">
                 <Link href={"/"}>
                     <Image src="/assets/icons/logo.svg" alt="FinSight logo" width={160} height={42} className="h-8 w-auto cursor-pointer"/>
